@@ -116,4 +116,4 @@ function renderCart() {
 }
 
 // Initial rendering of products
-renderProducts();
+window.onload = renderProducts();
