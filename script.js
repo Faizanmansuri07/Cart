@@ -60,7 +60,7 @@ function renderProducts(data) {
         div.innerHTML = `
             <div class="product-detail">
                 <div class="img">
-                    <img src="${product.image}" alt="">
+                    <img src="${product.image}" alt="" loading="lazy">
                 </div>    
                     <p id="title">${product.title}</p>
                     <p id="price">Price : ${product.price}</p>
